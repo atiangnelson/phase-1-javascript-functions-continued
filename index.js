@@ -11,9 +11,6 @@ return function(adjective="a hard worker"){
     return `You are ${flair}${adjective}${flair}!` ;
 }
  }
-const encouragingPromptFunction = wrapAdjective("!!!")
-console.log(encouragingPromptFunction("a dedicated programmer"));
-console.log(wrapAdjective("%")("a dedicated programmer"))
 
 
 
